@@ -20,9 +20,9 @@ animation playground, not a complete chess game.
   clipboard sharing, touch-size coordinate mapping, and keyboard movement.
 - Reviewed desktop/mobile and animation screenshots. The supplied generation
   assets remain concept quality, with their existing pose variation.
-- Vercel preview READY: https://living-chess-steel-and-bone-ancmxi8lu-pegbo.vercel.app
+- Vercel preview READY
   (`dpl_9dPrRL2j1evFf5C9oW1UsjYdrWpL`, explicit `--target preview`).
-- New Vercel project: `living-chess-steel-and-bone` in `pegbo`.
+- New Vercel project: `living-chess-steel-and-bone`.
   Vercel auto-assigned the initial deployment to production despite the absence
   of `--prod`; the explicit second deployment above is the shared preview.
 - Disabled SSO deployment protection for this new public demo project so friends
@@ -53,7 +53,7 @@ animation playground, not a complete chess game.
   variation remains concept quality.
 - Preserved the latest courtyard artwork and motion integration found in the
   workspace, and verified the combined page before deployment.
-- Vercel explicit preview READY: https://living-chess-steel-and-bone-8a3kiyeei-pegbo.vercel.app
+- Vercel explicit preview READY
   Deployment: dpl_8kUDg7ZrnCBaSyfosa7rympLae2G. Project SSO protection is null.
   This is the updated share link; earlier preview URLs are immutable.
 
@@ -74,7 +74,7 @@ animation playground, not a complete chess game.
 - Renamed the visible preview Boneboard and updated character counts and sharing metadata. Preserved the current animated courtyard and blue redraw.
 - Five model tests and expanded desktop/mobile browser suite passed; 128 loaded frames, no browser errors. Tower movement, attack, death, reset verified; all new PNGs hash-match sources. Visual review appended to design-qa.md.
 - User's abbreviation PE remains unconfirmed; clarification requested in this task. Completed local playtest and visual evaluation without claiming a different PE workflow.
-- Updated existing Vercel project with an explicit preview deployment: dpl_6u26HH4XJ4YA2V7aQecSvXoxZeYw, Vercel READY. Immutable preview: https://living-chess-steel-and-bone-5ugxqnu9w-pegbo.vercel.app.
+- Updated existing Vercel project with an explicit preview deployment: dpl_6u26HH4XJ4YA2V7aQecSvXoxZeYw, Vercel READY.
 - Assigned the short share alias successfully: https://boneboard.vercel.app. Future updates should point this alias at the new tested preview. Old immutable preview URLs stay on their previous revisions.
 
 ## 2026-09-10 — Click an enemy to approach and attack
@@ -85,7 +85,7 @@ animation playground, not a complete chess game.
 - Input stays locked through approach, strike and collapse; Reset cancels the whole sequence. The scripted duel now uses the same combat flow. Added target outlines and updated pointer/keyboard instructions.
 - Nine model tests pass. Existing browser smoke and new combat browser suite pass: clicking enemies/allies, pathing, attack/defeat, all four lunge directions, reset cancellation, mobile, keyboard, duel. 128 frames load, no browser errors. Reviewed combat screenshots and the prescribed game-client capture.
 - Evidence: test-artifacts/combat/validation.json, cardinal lunge captures and mobile.png. The separate user abbreviation PE is still undefined; no claim to have completed it.
-- Vercel explicit preview READY: dpl_8XBB9EJFw2FMZk58u7HP1zwQJdto at https://living-chess-steel-and-bone-ikynfwb1o-pegbo.vercel.app. Short alias https://boneboard.vercel.app updated to this deployment.
+- Vercel explicit preview READY: dpl_8XBB9EJFw2FMZk58u7HP1zwQJdto. Short alias https://boneboard.vercel.app updated to this deployment.
 
 ## 2026-09-10 — Blue idle black-fringe repair
 
