@@ -2,6 +2,14 @@
 
 ![Boneboard Modern Collection: 3D board in the Bone & Gold style with the style switcher](docs/screenshots/overview.webp)
 
+**Problem.** Whether upright, side-view animated characters read clearly on a fixed, near-top-down chessboard as they move, attack and collapse is an open question.
+
+**Idea.** Keep the board fixed and the characters as 2D pixel-art sprites, and build combat from the existing movement patterns: a unit approaches an adjacent square, lunges at the target and the target collapses.
+
+**Built.** An animation prototype with four pixel-art characters in a medieval courtyard, plus a Modern Collection of three procedural 3D piece styles with a full board and a deliberately weak opponent. Live at https://boneboard.vercel.app (courtyard) and https://boneboard-modern.vercel.app (Modern Collection). 8 commits on 7 days, Jul 26 to Oct 20, 2026.
+
+**Decision.** The Modern Collection's opponent is a deliberately weak local player with vendored chess.js rules instead of a remote AI service, so the page needs no API key and loads only local files.
+
 **Live:** https://boneboard-modern.vercel.app
 
 New: [The Modern Collection](web-demo/modern/README.md) — a separate 3D visual prototype with a right-hand style switcher, complete board, and individual piece inspection. Published at https://boneboard-modern.vercel.app. A second collection uses a fixed top-down board and photographic image pieces at https://boneboard-modern.vercel.app/rendered/. Local paths are `/modern/` and `/modern/rendered/`. Both local collections now include Silly AI, a deliberately weak opponent with legal moves, playful commentary, and an Arrange freely option. This gameplay update has not yet been published. A third variant, [Play](web-demo/play/README.md), is a two-player chess interface with seven styles, published at https://boneboard-play.vercel.app; it has its own `package.json` (`npm run dev` on port 4191, `npm test`).
